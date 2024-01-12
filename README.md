@@ -12,3 +12,12 @@
 ### `BONUS`:
 Come detto, le validazioni
 Volendo, potreste provare a farlo con degli input che compaiono in pagina dopo che scompaiono i numeri, invece che coi prompt
+
+### Scaletta
+ - Creo gli elementi html di cui ho bisogno e li stilizzo
+ - Li recupero nel file js
+ - Al click su un pulsante lancio il programma:
+    - vengono generati 5 numeri casuali e messi in pagina
+    - setto un timeout che fa sparire i numeri dalla pagina dopo 30 secondi
+    - l'untente dovrà indovinare i 5 numeri inserendoli in pagina
+    - controllo se c'è corrispondenza e genero un risultato: corrispondenze trovate e quali

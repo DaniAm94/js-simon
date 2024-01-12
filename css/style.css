@@ -7,6 +7,11 @@
     height: 30px;
 }
 
+.input-field {
+    display: none;
+    margin-top: 1rem;
+}
+
 .input-field.success {
     border: 2px solid green;
     border-radius: 10px;

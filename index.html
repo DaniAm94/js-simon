@@ -18,21 +18,22 @@
 
 <body>
 
-    <div class="container-sm d-flex flex-column align-items-center justify-content-around ">
-        <h3>Allo start verranno mostrati 5 numeri e avrai 30 secondi per memorizzarli</h3>
+    <div class="container-sm d-flex flex-column align-items-center justify-content-around">
+        <h3 class="my-5 ">Allo start verranno mostrati 5 numeri e avrai 30 secondi per memorizzarli</h3>
         <form class="d-flex flex-column align-items-center row-gap-3 ">
-            <div class="d-flex random-fields">
+            <div class="d-flex random-fields column-gap-1">
 
             </div>
             <div>
-                <input type="number" min="0" max="100" required class="input-field">
-                <input type="number" min="0" max="100" required class="input-field">
-                <input type="number" min="0" max="100" required class="input-field">
-                <input type="number" min="0" max="100" required class="input-field">
-                <input type="number" min="0" max="100" required class="input-field">
+                <input type="number" name="number" min="0" max="100" class="d-none input-field">
+                <input type="number" name="number" min="0" max="100" class="d-none input-field">
+                <input type="number" name="number" min="0" max="100" class="d-none input-field">
+                <input type="number" name="number" min="0" max="100" class="d-none input-field">
+                <input type="number" name="number" min="0" max="100" class="d-none input-field">
             </div>
             <button id="button" class="">Start</button>
         </form>
+        <h1 id="timer"></h1>
     </div>
 </body>
 

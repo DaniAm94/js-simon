@@ -2,14 +2,20 @@
     height: 200px;
 }
 
+.random-fields {
+    width: 100%;
+}
+
 .random-number {
     border: 1px solid black;
     height: 30px;
+    width: 50px;
+    text-align: center;
 }
 
 .input-field {
-    display: none;
     margin-top: 1rem;
+    width: 50px;
 }
 
 .input-field.success {

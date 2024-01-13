@@ -49,7 +49,7 @@ form.addEventListener('submit', (e) => {
         button.disabled = true;
         // Genero i 5 numeri casuali e li metto in una variabile
         randomNumbers = getRandomNumbers();
-        console.log(randomNumbers);
+        console.log('Numeri da indovinare:', randomNumbers);
         // Creo un nodo per ogni numero casuale per poterlo mostrare in pagina
         for (let number of randomNumbers) {
             const randomField = document.createElement('div');
@@ -101,7 +101,7 @@ form.addEventListener('submit', (e) => {
 
             }
         }
-        console.log(userInputs);
+        console.log('Numeri inseriti dall\'utente: ', userInputs);
         // Mostro il risultato in pagina
         istruction.innerText = `Hai indovinato ${score} numeri su 5`;
     }

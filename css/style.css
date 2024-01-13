@@ -1,5 +1,5 @@
 .container-sm {
-    height: 200px;
+    height: 100vh;
 }
 
 .random-fields {
@@ -9,13 +9,13 @@
 .random-number {
     border: 1px solid black;
     height: 30px;
-    width: 50px;
+    width: 70px;
     text-align: center;
 }
 
 .input-field {
     margin-top: 1rem;
-    width: 50px;
+    width: 70px;
 }
 
 .input-field.success {

@@ -42,7 +42,9 @@ form.addEventListener('submit', (e) => {
         //Ripulisco i campi con i 5 numeri casuali
         randomFields.innerHTML = '';
         // Inizializzo il tempo
-        time = 30;
+        time = 10;
+        timerDisplay.innerText = time;
+
         // Disabilito il pulsante fintanto che scorre il timer
         button.disabled = true;
         // Genero i 5 numeri casuali e li metto in una variabile
@@ -57,9 +59,9 @@ form.addEventListener('submit', (e) => {
         }
         // Creo una time function per lo scorrere del timer
         const timer = setInterval(() => {
-            timerDisplay.innerText = time--;
+            timerDisplay.innerText = --time;
             // Quando il tempo arriva a 0
-            if (time < 0) {
+            if (time <= 0) {
                 // Cambio messaggio in schermata per dare istruzioni all'utente
                 istruction.innerText = 'Indovina i 5 numeri';
                 // Nascondo i numeri da indovinare
